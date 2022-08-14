@@ -1,0 +1,100 @@
+
+/* Small tablet portrait */
+/* @media (min-width:481px) {
+    .about,
+    .menu,
+    .where,
+    .footer {
+      text-align: center;
+      margin: 0 auto;
+      width: 500px;
+    }
+
+    .about .p1 {
+        width: 500px;
+        font-size: 18px;
+        font-family: var(--font-family);
+        font-weight: bold;
+        opacity: 0.6;
+        text-align: justify;
+        margin: 18px 0;
+        line-height: 1.5;
+      }
+      .border-about {
+        width: 500px;
+        background-color: #f1f1f1;
+        color: #000;
+        border: 5px solid #ccc;
+        border-width: 0 0 0 5px;
+        padding: 18px 16px;
+    }
+    .tab_item p {
+        text-align: justify;
+        font-size: 14px;       
+    }
+    .the-cafe span {
+        font-size: 67px;
+    }
+} */
+
+/* iphone 8/ 8plus */
+@media (min-width:320px) and (max-width: 736px) {
+   .about, .menu, .where, .footer, .border-about {
+    width: 400px;       
+   }
+
+   .about .p1 {
+    width: 400px;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+   }
+   .background .open-cafe {
+    font-size: 12px;
+   }
+
+   .background .address-cafe {
+    font-size: 12px;
+   }
+
+   .tab_body {
+    height: 800px;
+   }
+
+   .where p  {
+    padding: 0 10px;
+   }
+
+   .the-cafe span {
+    font-size: 55px;
+   }
+   .border-about .p-border {
+    font-size: 14px;
+   }
+   .about .text-about {
+    padding: 0 10px;
+   }
+}
+
+
+@media (min-width:375px) and (max-width:812px) {
+    
+}
+
+
+
+/*(width x Height)
+
+Mobile   (320x480)
+
+Mobile landscape (480x320)
+
+Small tablet portrait (600x800)
+
+Small tablet landscape (800x600)
+
+Tablet portrait (768x1024)
+
+Tablet landscape (1024x768)
+
+Desktop bigger than (1024)
